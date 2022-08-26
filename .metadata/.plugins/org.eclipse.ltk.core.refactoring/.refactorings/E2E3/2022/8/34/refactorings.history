@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;data.properties&apos; to &apos;E2E3/src/main/java/resources&apos;&#x0D;&#x0A;- Original project: &apos;E2E3&apos;&#x0D;&#x0A;- Destination element: &apos;E2E3/src/main/java/resources&apos;&#x0D;&#x0A;- Original element: &apos;data.properties&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;resources" element1="src/main/java/Academy/data.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1660544398646" units="0" version="1.0"/>
+</session>

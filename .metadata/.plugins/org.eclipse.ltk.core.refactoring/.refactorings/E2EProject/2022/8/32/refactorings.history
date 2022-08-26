@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ValidateTitle.java&apos; to &apos;E2E2/src/test/java/Academy.E2E2&apos;&#x0D;&#x0A;- Original project: &apos;E2EProject&apos;&#x0D;&#x0A;- Destination element: &apos;E2E2/src/test/java/Academy.E2E2&apos;&#x0D;&#x0A;- Original element: &apos;Academy.E2EProject.ValidateTitle.java&apos;" description="Copy compilation unit" destination="=E2E2/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;Academy.E2E2" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;Academy.E2EProject{ValidateTitle.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1659375675894" units="1" version="1.0"/>
+</session>

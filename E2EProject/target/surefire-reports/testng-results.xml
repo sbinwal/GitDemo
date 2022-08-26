@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="312940" started-at="2022-07-25T19:18:59Z" finished-at="2022-07-25T19:24:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="312940" started-at="2022-07-25T19:18:59Z" finished-at="2022-07-25T19:24:12Z">
+      <class name="Academy.E2EProject.ValidateTitle">
+        <test-method status="PASS" signature="basePageNavigator()[pri:0, instance:Academy.E2EProject.ValidateTitle@290d210d]" name="basePageNavigator" duration-ms="88009" started-at="2022-07-26T00:51:51Z" finished-at="2022-07-26T00:53:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigator -->
+      </class> <!-- Academy.E2EProject.ValidateTitle -->
+      <class name="Academy.E2EProject.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.E2EProject.HomePage@4c15e7fd]" name="initialize" is-config="true" duration-ms="26897" started-at="2022-07-26T00:48:59Z" finished-at="2022-07-26T00:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.E2EProject.ValidateTitle@290d210d]" name="initialize" is-config="true" duration-ms="34252" started-at="2022-07-26T00:49:26Z" finished-at="2022-07-26T00:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.E2EProject.ValidateTitle2@2133814f]" name="initialize" is-config="true" duration-ms="55402" started-at="2022-07-26T00:50:00Z" finished-at="2022-07-26T00:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigator(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@4c15e7fd]" name="basePageNavigator" duration-ms="53036" started-at="2022-07-26T00:50:55Z" data-provider="getData" finished-at="2022-07-26T00:51:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigator -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.E2EProject.HomePage@4c15e7fd]" name="tearDown" is-config="true" duration-ms="16229" started-at="2022-07-26T00:53:19Z" finished-at="2022-07-26T00:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.E2EProject.ValidateTitle@290d210d]" name="tearDown" is-config="true" duration-ms="21890" started-at="2022-07-26T00:53:35Z" finished-at="2022-07-26T00:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.E2EProject.ValidateTitle2@2133814f]" name="tearDown" is-config="true" duration-ms="14690" started-at="2022-07-26T00:53:57Z" finished-at="2022-07-26T00:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.E2EProject.HomePage -->
+      <class name="Academy.E2EProject.ValidateTitle2">
+        <test-method status="PASS" signature="basePageNavigator()[pri:0, instance:Academy.E2EProject.ValidateTitle2@2133814f]" name="basePageNavigator" duration-ms="2448" started-at="2022-07-26T00:51:48Z" finished-at="2022-07-26T00:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigator -->
+      </class> <!-- Academy.E2EProject.ValidateTitle2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

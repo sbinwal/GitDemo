@@ -1,0 +1,38 @@
+package LG.CNS1;
+
+import java.io.IOException;
+
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import pageobjects.LandingPage;
+import pageobjects.LoginPage;
+import resources.base;
+
+public class Validate2 extends base {
+	
+	public WebDriver driver;
+
+	
+	
+	@Test
+	public void basePageNavigator() throws IOException
+	{
+		driver= InitializeDriver();
+	driver.get("https://www.lg.com/in");
+	LandingPage lp= new LandingPage(driver);
+	lp.getLogin().click();
+	LoginPage l =new LoginPage(driver);
+	l.getEmail().sendKeys("Sandeep");
+	l.getpassword().sendKeys("9876543@sdfg");
+	l.getsignin().click();
+	
+	}
+	
+
+	
+	
+	
+
+}

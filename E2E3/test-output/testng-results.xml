@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-13T21:18:25 IST" name="Suite" finished-at="2022-08-13T21:20:38 IST" duration-ms="132525">
+    <groups>
+    </groups>
+    <test started-at="2022-08-13T21:18:25 IST" name="Test" finished-at="2022-08-13T21:20:38 IST" duration-ms="132525">
+      <class name="Academy.HomePage">
+        <test-method signature="basePageNavigator(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@58695725]" started-at="2022-08-13T21:19:42 IST" name="basePageNavigator" data-provider="getData" finished-at="2022-08-13T21:20:38 IST" duration-ms="55861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigator -->
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.Validation">
+        <test-method signature="basePageNavigator()[pri:0, instance:Academy.Validation@618425b5]" started-at="2022-08-13T21:18:54 IST" name="basePageNavigator" finished-at="2022-08-13T21:19:42 IST" duration-ms="47815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigator -->
+      </class> <!-- Academy.Validation -->
+      <class name="Academy.Validation2">
+        <test-method signature="basePageNavigator()[pri:0, instance:Academy.Validation2@3232a28a]" started-at="2022-08-13T21:18:25 IST" name="basePageNavigator" finished-at="2022-08-13T21:18:54 IST" duration-ms="28698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigator -->
+      </class> <!-- Academy.Validation2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
